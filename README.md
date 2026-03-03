@@ -1,6 +1,6 @@
 # Froala + React Knowledge Base Admin (Real-World Example)
 
-This repo is a practical example you can run in VS Code and publish to GitHub:
+This repo is a practical example.
 
 - React admin UI for KB articles (title + category + tags + body)
 - Froala editor embedded inline with a KB-focused toolbar
@@ -9,7 +9,7 @@ This repo is a practical example you can run in VS Code and publish to GitHub:
 - Live preview of rendered KB article HTML
 
 > Note on licensing: Froala requires a license key for production use. This example includes a placeholder environment variable.
-> Use your Froala trial/license key when testing.
+> Use your [Froala trial/license key](https://cart.froala.com/) when testing.
 
 ---
 
@@ -62,15 +62,14 @@ Uploads are served from: `http://localhost:3001/uploads/<filename>`
 
 ---
 
-## Where to link from your article
-
-After you push this repo to GitHub, add a line like:
-
-> Get the complete React + Express knowledge base editor example here: **(GitHub repo link)**
-
----
-
 ## Security note
 
 This example includes basic server-side HTML sanitization using `sanitize-html`.  
 In production, also validate auth/permissions and store uploads in object storage (S3, GCS, etc.).
+
+## References
+
+- https://froala.com/wysiwyg-editor/docs/getting-started/
+- https://froala.com/blog/editor/build-knowledge-base-faster-embedded-editor-guide/
+- https://react.dev/
+
