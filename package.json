@@ -1,0 +1,14 @@
+{
+  "name": "froala-react-kb-admin-example",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Real-world example: Froala in a React knowledge base admin with HTML save/load + image upload via Express.",
+  "workspaces": ["client", "server"],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:client": "npm --workspace client run dev",
+    "dev:server": "npm --workspace server run dev",
+    "build": "npm --workspace client run build",
+    "start": "npm --workspace server run start"
+  }
+}

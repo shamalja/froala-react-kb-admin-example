@@ -1,0 +1,22 @@
+# dependencies
+**/node_modules
+
+# env files
+**/.env
+**/.env.*
+
+# build output
+**/dist
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+
+# uploads + local data (optional)
+server/uploads
+server/data/articles.json
